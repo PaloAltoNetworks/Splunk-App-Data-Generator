@@ -1,0 +1,105 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254796298</id>
+  <task>366873438</task>
+  <sha256>a2473f5aa013018ec9445f12b94e895310495d63e7fa80f6e33d42d4708eb108</sha256>
+  <md5>ecc02eeedc39f4af45251c97977a0951</md5>
+  <size>343778</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created an executable file in a user document folder</entry>
+    <entry>Created or modified files</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Triggered known IPS signature ( ZeroAccess.Gen Command and Control Traffic )</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Changed the proxy settings for Internet Explorer</entry>
+    <entry>Modified the network connections setting for Internet Explorer</entry>
+    <entry>Used the POST method in HTTP</entry>
+    <entry>Attempted to sleep for a long period</entry>
+    <entry>Visited a malware domain</entry>
+    <entry>Scheduled a file name change at next start-up</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2456" child_process_image="C:\sample.exe" parent_pid="2420" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1608" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="636" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_terminated child_pid="2456" child_process_image="C:\sample.exe" parent_pid="2420" parent_process_image="explorer.exe"/>
+  </process>
+  <file>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsr1.tmp" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp" pid="2456" process_image="C:\sample.exe"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\nsDialogs.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\header.bmp"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\System.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\registry.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\blowfish.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\Math.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\UserInfo.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\GetVersion.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\manlib.dll"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\first_call_mon_v4[1].htm"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\installog.txt"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\DS_IMapplication_mon_v2[1].htm"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\output.txt"/>
+    <file_written pid="2456" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\serlib.dll"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\Offer1.zip" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\Offer2.zip" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\S1MZ0XYN\DS_trackstats_mon_v2[1].htm" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\blowfish.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\GetVersion.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\header.bmp" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\installog.txt" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\manlib.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\Math.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\nsDialogs.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\output.txt" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\registry.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\serlib.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\System.dll" pid="2456" process_image="C:\sample.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsx2.tmp\UserInfo.dll" pid="2456" process_image="C:\sample.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2420" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2456" process_image="C:\sample.exe" reg_key="HKLM\SYSTEM\ControlSet001\Control\Session Manager\PendingFileRenameOperations"/>
+    <SetValueKey pid="636" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="US" ip="50.19.102.217" port="80"/>
+    <dns query="www.fcguttawater.us" type="A"/>
+    <dns query="mstatartgocdn.us" type="NS"/>
+    <dns query="fcguttawater.us" type="NS"/>
+    <dns query="www.mstatartgocdn.us" type="A"/>
+    <url host="www.mstatartgocdn.us" method="POST" uri="/DS_IMapplication_mon_v2.php" user_agent="NSIS_Inetc (Mozilla)"/>
+    <url host="www.mstatartgocdn.us" method="POST" uri="/DS_trackstats_mon_v2.php" user_agent="NSIS_Inetc (Mozilla)"/>
+    <url host="www.mstatartgocdn.us" method="POST" uri="/DS_trackstats_mon_v2.php" user_agent="NSIS_Inetc (Mozilla)"/>
+    <url host="www.fcguttawater.us" method="POST" uri="/first_call_mon_v4.php" user_agent="NSIS_Inetc (Mozilla)"/>
+  </network>
+</report>
+</wildfire>

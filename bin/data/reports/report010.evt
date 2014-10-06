@@ -1,0 +1,180 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254796918</id>
+  <task>366988118</task>
+  <sha256>08d7b827eb2b25a5180ed6e8f94979601036730b8ea52196e038010905f98674</sha256>
+  <md5>7745cc43f03d993655ed449df7b3bee5</md5>
+  <size>316416</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created or modified files</entry>
+    <entry>Sample used a suspicious User-Agent</entry>
+    <entry>Spawned new processes</entry>
+    <entry>Contained unknown TCP/UDP traffic</entry>
+    <entry>Listened on a specific port (backdoor behavior)</entry>
+    <entry>Deleted itself</entry>
+    <entry>Injected code into another process</entry>
+    <entry>Registered a file as auto-start from a local directory</entry>
+    <entry>Modified registries or system configuration to enable auto start capability</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Changed the proxy settings for Internet Explorer</entry>
+    <entry>Modified the network connections setting for Internet Explorer</entry>
+    <entry>Created an executable file in a user document folder</entry>
+    <entry>Visited an unregistered domain</entry>
+    <entry>Started a process from a user document folder</entry>
+    <entry>Visited a malware domain</entry>
+    <entry>Changed the Windows firewall policy</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2440" child_process_image="C:\sample.exe" parent_pid="2404" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1608" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="636" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_created child_pid="2524" child_process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" parent_pid="2440" parent_process_image="C:\sample.exe"/>
+    <process_created child_pid="2756" child_process_image="UNKNOWN" parent_pid="2440" parent_process_image="C:\sample.exe"/>
+    <process_terminated child_pid="2524" child_process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" parent_pid="2440" parent_process_image="C:\sample.exe"/>
+    <process_terminated child_pid="2440" child_process_image="C:\sample.exe" parent_pid="2404" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="2756" child_process_image="UNKNOWN" parent_pid="2440" parent_process_image="C:\sample.exe"/>
+    <process_terminated child_pid="1312" child_process_image="C:\WINDOWS\system32\update.exe" parent_pid="1712" parent_process_image="C:\WINDOWS\system32\cmd.exe"/>
+    <process_terminated child_pid="1712" child_process_image="C:\WINDOWS\system32\cmd.exe" parent_pid="1624" parent_process_image="C:\WINDOWS\explorer.exe"/>
+    <process_terminated child_pid="1044" child_process_image="C:\WINDOWS\system32\wscntfy.exe" parent_pid="1060" parent_process_image="C:\WINDOWS\system32\svchost.exe"/>
+  </process>
+  <file>
+    <file_written pid="2440" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe"/>
+    <file_written pid="2524" process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT.LOG"/>
+    <file_written pid="2524" process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT"/>
+    <file_written pid="1624" process_image="C:\WINDOWS\explorer.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT.LOG"/>
+    <file_written pid="1624" process_image="C:\WINDOWS\explorer.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT"/>
+    <file_written pid="1700" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT.LOG"/>
+    <file_written pid="1700" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT"/>
+    <file_written pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\Address Book\Administrator.wab"/>
+    <file_written pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT.LOG"/>
+    <file_written pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT"/>
+    <file_written pid="2440" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\SST5E1E.bat"/>
+    <file_deleted deleted_file="C:\sample.exe" pid="2756" process_image="UNKNOWN"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\SST5E1E.bat" pid="2756" process_image="UNKNOWN"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\google[1].htm" pid="1624" process_image="C:\WINDOWS\explorer.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2404" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2440" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2440" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Local AppData"/>
+    <SetValueKey pid="2524" process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2524" process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Local AppData"/>
+    <SetValueKey pid="2524" process_image="C:\Documents and Settings\Administrator\Application Data\Upev\ofow.exe" reg_key="HKCU\Software\Microsoft\Lasikee\1g862cd4"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Lasikee\1jig4bie"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Ofow"/>
+    <DeleteValueKey pid="1700" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Run\internat.exe"/>
+    <SetValueKey pid="1700" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Lasikee\1jig4bie"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Server ID"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Server ID"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Server ID"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Server ID"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Server ID"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\PreConfigVer"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\PreConfigVerNTDS"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\Account Name"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Server"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Search Return"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Timeout"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Authentication"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Simple Search"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Bind DN"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Port"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Resolve Flag"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Secure Connection"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP User Name"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Active Directory GC\LDAP Search Base"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\Account Name"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Server"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP URL"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Search Return"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Timeout"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Authentication"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Simple Search"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\Bigfoot\LDAP Logo"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\Account Name"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Server"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP URL"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Search Return"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Timeout"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Authentication"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Search Base"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Simple Search"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\VeriSign\LDAP Logo"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\Account Name"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Server"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP URL"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Search Return"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Timeout"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Authentication"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Simple Search"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Accounts\WhoWhere\LDAP Logo"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Internet Account Manager\Default LDAP Account"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\WAB\WAB4\Wab File Name"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\WAB\WAB4\OlkContactRefresh"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\WAB\WAB4\OlkFolderRefresh"/>
+    <DeleteValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Identities\Changing"/>
+    <DeleteValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Identities\IncomingID"/>
+    <DeleteValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Identities\OutgoingID"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Identities\{7A323C99-BE29-4352-AFB7-C158712E22C9}\Identity Ordinal"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Identities\Identity Ordinal"/>
+    <SetValueKey pid="1712" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Lasikee\1jig4bie"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKLM\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\DisableNotifications"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKLM\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List\3119:UDP"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKLM\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List\7344:TCP"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Lasikee\bb3c14i"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="1624" process_image="C:\WINDOWS\explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="636" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <UDP country="US" ip="68.94.5.139" port="9537"/>
+    <UDP country="N/A" ip="107.214.174.97" port="6448"/>
+    <UDP country="US" ip="71.43.167.82" port="4598"/>
+    <UDP country="DE" ip="178.238.233.29" port="9710"/>
+    <UDP country="US" ip="66.226.34.247" port="4310"/>
+    <UDP country="US" ip="99.103.236.242" port="1625"/>
+    <UDP country="US" ip="208.115.110.218" port="67"/>
+    <UDP country="ZA" ip="196.210.183.125" port="64673"/>
+    <UDP country="N/A" ip="107.217.117.139" port="8593"/>
+    <UDP country="US" ip="71.101.0.19" port="50914"/>
+    <UDP country="US" ip="67.140.85.16" port="13375"/>
+    <UDP country="PH" ip="210.213.137.50" port="22142"/>
+    <UDP country="US" ip="99.72.61.142" port="18994"/>
+    <TCP country="US" ip="74.125.140.105" port="80"/>
+    <UDP country="MX" ip="201.153.236.237" port="8114"/>
+    <UDP country="HK" ip="220.246.38.109" port="7243"/>
+    <UDP country="US" ip="99.163.254.198" port="2368"/>
+    <UDP country="GB" ip="194.36.163.54" port="9227"/>
+    <UDP country="US" ip="67.166.27.230" port="9968"/>
+    <UDP country="N/A" ip="5.133.151.224" port="28105"/>
+    <UDP country="CA" ip="184.147.56.198" port="4294"/>
+    <dns query="dycitogihezlcyhamhupzxdtokj.info" type="NXDOMAIN"/>
+    <dns query="tgtxgzdauhpbxqkpnaqlhydmmnh.ru" type="NXDOMAIN"/>
+    <dns query="eymbljferglzgyqcwkdltokzw.com" type="NXDOMAIN"/>
+    <dns query="budgqcmdcqytfywsfurpvqclfws.net" type="NXDOMAIN"/>
+    <dns query="buxwkeqkhdelbpvhxobmhmdeoj.biz" type="NXDOMAIN"/>
+    <dns query="www.google.com" type="A"/>
+    <dns query="google.com" type="NS"/>
+    <dns query="jtcbqyxlnlnnrnbqghxcbippl.biz" type="NXDOMAIN"/>
+    <dns query="zbzlypcesinqgqkndugqai.com" type="NXDOMAIN"/>
+    <url host="www.google.com" method="GET" uri="/" user_agent="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)"/>
+  </network>
+</report>
+</wildfire>

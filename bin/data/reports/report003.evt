@@ -1,0 +1,45 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254801358</id>
+  <task>366990958</task>
+  <sha256>35828da2d6048ee61680b3d64d402ac73f00880ff43f607df4c2de389faa76eb</sha256>
+  <md5>16e9e0a7e127ce6fd6cf091fba5d661f</md5>
+  <size>101376</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Changed the default Windows shell program</entry>
+    <entry>Created or modified files</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Malware came from a malware domain</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2440" child_process_image="C:\sample.exe" parent_pid="2380" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1588" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="664" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_terminated child_pid="2440" child_process_image="C:\sample.exe" parent_pid="2380" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2500" child_process_image="C:\WINDOWS\system32\svchost.exe" parent_pid="1612" parent_process_image="C:\WINDOWS\explorer.exe"/>
+  </process>
+  <file>
+    <file_written pid="2500" process_image="C:\WINDOWS\system32\svchost.exe" written_file="C:\Documents and Settings\Administrator\Application Data\cache.dat"/>
+    <file_written pid="2500" process_image="C:\WINDOWS\system32\svchost.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT.LOG"/>
+    <file_written pid="2500" process_image="C:\WINDOWS\system32\svchost.exe" written_file="C:\Documents and Settings\Administrator\NTUSER.DAT"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2500" process_image="C:\WINDOWS\system32\svchost.exe" reg_key="HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\shell"/>
+    <SetValueKey pid="664" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network/>
+</report>
+</wildfire>

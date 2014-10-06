@@ -1,0 +1,61 @@
+<wildfire> 
+<report>
+  <version>
+    0.1
+  </version>
+  <id>254796028</id>
+  <task>
+    312311728
+  </task>
+  <sha256>
+    91aee5831e29087447f0fbbdf3531a56cbd574af54dd7a6d8b54b2d1410684c9
+  </sha256>
+  <md5>
+    d0db4f62648912e4baae34f1d918010b
+  </md5>
+  <malware>
+    yes
+  </malware>
+  <summary>
+    <entry>
+      Changed security settings of Internet Explorer
+    </entry>
+    <entry>
+      Created or modified files
+    </entry>
+    <entry>
+      Attempted to sleep for a long period
+    </entry>
+    <entry>
+      Modified Windows registries
+    </entry>
+    <entry>
+      Malware came from a malware domain
+    </entry>
+  </summary>
+  <process>
+    <process_created child_pid="2448" child_process_image="C:\sample.exe" parent_pid="2388" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1592" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="672" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+  </process>
+  <file>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsl1.tmp" pid="2448" process_image="C:\sample.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2388" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2448" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2448" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="672" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network/>
+</report>
+</wildfire>

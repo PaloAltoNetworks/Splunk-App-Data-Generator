@@ -1,0 +1,76 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254801558</id>
+  <task>366992338</task>
+  <sha256>bcccb59a27945f0fddb8b113a0ce18c9ea44ad2a5bc555b1f68a5a532f94d2af</sha256>
+  <md5>7deeb6461caf764bf7ed708b3973072c</md5>
+  <size>238080</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created or modified files</entry>
+    <entry>Spawned new processes</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Changed the proxy settings for Internet Explorer</entry>
+    <entry>Modified the network connections setting for Internet Explorer</entry>
+    <entry>Attempted to sleep for a long period</entry>
+    <entry>Deleted Cookies</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2452" child_process_image="C:\WINDOWS\system32\msiexec.exe" parent_pid="2444" parent_process_image="C:\sample.exe"/>
+    <process_created child_pid="2444" child_process_image="C:\sample.exe" parent_pid="4294967295" parent_process_image="UNKNOWN"/>
+    <process_created child_pid="2444" child_process_image="C:\sample.exe" parent_pid="2408" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="2444" child_process_image="C:\sample.exe" parent_pid="2408" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1584" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="664" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_terminated child_pid="2452" child_process_image="C:\WINDOWS\system32\msiexec.exe" parent_pid="2444" parent_process_image="C:\sample.exe"/>
+  </process>
+  <file>
+    <file_written pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" written_file="C:\Documents and Settings\Administrator\Cookies\administrator@google[2].txt"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Cookies\administrator@google[1].txt" pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe"/>
+    <file_written pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" written_file="C:\Documents and Settings\Administrator\Cookies\index.dat"/>
+    <file_written pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" written_file="C:\Documents and Settings\Administrator\Cookies\administrator@google[1].txt"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Cookies\administrator@google[2].txt" pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2408" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2452" process_image="C:\WINDOWS\system32\msiexec.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="664" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="US" ip="74.125.140.106" port="80"/>
+    <TCP country="NL" ip="78.140.131.151" port="80"/>
+    <dns query="cdn162.fileshostinginformation.com" type="A"/>
+    <dns query="google.com" type="NS"/>
+    <dns query="www.google.com" type="A"/>
+    <dns query="fileshostinginformation.com" type="NS"/>
+    <url host="www.microsoft.com" method="GET" uri="/uploading/id=1083243553&amp;u=4WSbvjA+sJYdYDrNmxr7tWGieIUtzGc/THuGyBHYacviRtjYIg2xcqQMAWYaZM4RqxalcusDRHEPWjrhdO7xxQ==" user_agent="Mozilla/5.0 (Windows NT 5.1; rv:20.0) Gecko/20100101 Firefox/20.0"/>
+    <url host="www.google.com" method="GET" uri="/" user_agent="Mozilla/5.0 (Windows NT 5.1; rv:20.0) Gecko/20100101 Firefox/20.0"/>
+  </network>
+</report>
+</wildfire>

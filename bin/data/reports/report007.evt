@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wildfire> 
+<version>2.0</version>
+<id>254797768</id>
+<file_info>
+  <sha256>95bdb3832b6ee802347f228547d3a0955b3f91a9c8f34645fb99c1037e7753c5</sha256>
+  <md5>279f2db47628a630123ce145699b5598</md5>
+  <filetype>PE</filetype>
+  <size>57216</size>
+  <malware>yes</malware>
+</file_info>
+<task_info>
+<report>
+  <version>2.0</version>
+  <platform>2</platform>
+  <software>Windows XP, Adobe Reader 9.4.0, Flash 10, Office 2007</software>
+  <sha256>95bdb3832b6ee802347f228547d3a0955b3f91a9c8f34645fb99c1037e7753c5</sha256>
+  <md5>279f2db47628a630123ce145699b5598</md5>
+  <size>57216</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Sample attempted to copy itself</entry>
+    <entry>Created an executable file in the Windows system folder</entry>
+    <entry>Created or modified files</entry>
+    <entry>Contained unknown TCP/UDP traffic</entry>
+    <entry>Moved itself</entry>
+    <entry>Started or stopped a system service</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Scheduled a file name change at next start-up</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2840" child_process_image="C:\WINDOWS\system32\jwzvwy.exe" parent_pid="716" parent_process_image="C:\WINDOWS\system32\services.exe"/>
+    <process_created child_pid="2812" child_process_image="C:\sample.exe" parent_pid="4294967295" parent_process_image="UNKNOWN"/>
+    <process_created child_pid="2812" child_process_image="C:\sample.exe" parent_pid="2772" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="2812" child_process_image="C:\sample.exe" parent_pid="2772" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1600" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="672" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+  </process>
+  <file>
+    <file_written pid="2812" process_image="C:\sample.exe" written_file="C:\WINDOWS\system32\jwzvwy.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2772" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2812" process_image="C:\sample.exe" reg_key="HKLM\SYSTEM\ControlSet001\Services\aspnet_statesjrq\Description"/>
+    <SetValueKey pid="2812" process_image="C:\sample.exe" reg_key="HKLM\SYSTEM\ControlSet001\Control\Session Manager\PendingFileRenameOperations"/>
+    <SetValueKey pid="672" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="CN" ip="119.147.138.52" port="9000"/>
+    <TCP country="CN" ip="222.186.43.246" port="6666"/>
+    <TCP country="CN" ip="119.147.138.52" port="8000"/>
+    <dns query="rouji888.com" type="A"/>
+    <dns query="100geili.com" type="NS"/>
+    <dns query="rat3.100geili.com" type="A"/>
+    <dns query="rouji888.com" type="NS"/>
+    <dns query="rat2.100geili.com" type="A"/>
+  </network>
+</report>
+</task_info>
+</wildfire>

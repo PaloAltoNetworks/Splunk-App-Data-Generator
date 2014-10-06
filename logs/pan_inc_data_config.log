@@ -1,0 +1,240 @@
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:24:38,192.168.0.2,208.73.210.29,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:24:40,5100,1,55630,80,0,0,0x208000,tcp,alert,"www.pinigeliai.com/ai/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:25:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:25:59,7073,1,55848,80,0,0,0x208000,tcp,alert,"mabira.net/z/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:32:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:33:01,16520,1,57582,80,0,0,0x208000,tcp,alert,"www.fayda.cn/work21/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:36:27,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:28,21487,1,58603,80,0,0,0x200000,tcp,block-url,"basdzsdas.com/poker/config.bin",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:36:28,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:31,21575,1,58614,80,0,0,0x208000,tcp,alert,"freeuniversis.cn/z12/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:36:32,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:33,21892,1,58652,80,0,0,0x208000,tcp,alert,"online2168.com/123/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:36:27,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:28,21487,1,58603,80,0,0,0x200000,tcp,block-url,"basdzsdas.com/poker/config.bin",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:36:28,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:31,21575,1,58614,80,0,0,0x208000,tcp,alert,"freeuniversis.cn/z12/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:36:32,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:33,21892,1,58652,80,0,0,0x208000,tcp,alert,"online2168.com/123/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:52 1,2013/03/25 23:58:52,1606001116,THREAT,url,1,2012/04/10 04:18:27,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:18:28,51529,1,53402,80,0,0,0x208000,tcp,alert,"amnepofig.ru/bb/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,file,1,2012/04/10 04:19:59,173.236.179.57,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,crusher,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:20:05,64856,1,80,54431,0,0,0x200000,tcp,deny,"uLLGRaXP.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:23:29,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:23:31,4154,1,55352,80,0,0,0x208000,tcp,alert,"amnepofig.ru/test/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:23:41,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:23:42,2780,1,55386,80,0,0,0x208000,tcp,alert,"pro100biz.cn/cn/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:24:38,192.168.0.2,208.73.210.29,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:24:40,5100,1,55630,80,0,0,0x208000,tcp,alert,"www.pinigeliai.com/ai/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:25:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:25:59,7073,1,55848,80,0,0,0x208000,tcp,alert,"mabira.net/z/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:32:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:33:01,16520,1,57582,80,0,0,0x208000,tcp,alert,"www.fayda.cn/work21/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:36:27,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:28,21487,1,58603,80,0,0,0x200000,tcp,block-url,"basdzsdas.com/poker/config.bin",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:36:28,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:31,21575,1,58614,80,0,0,0x208000,tcp,alert,"freeuniversis.cn/z12/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,THREAT,url,1,2012/04/10 04:36:32,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:33,21892,1,58652,80,0,0,0x208000,tcp,alert,"online2168.com/123/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:58:57 1,2013/03/25 23:58:57,1606001116,CONFIG,0,0,2012/02/25 00:51:50,192.168.0.2,,set,admin,Web,Succeeded, config shared local-user-database user  badguy,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,CONFIG,0,0,2012/02/25 00:53:22,192.168.0.2,,set,admin,Web,Succeeded, config mgt-config users  badguy,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,CONFIG,0,0,2012/02/25 00:53:40,192.168.0.2,,commit,admin,Web,Submitted,,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,SYSTEM,routing,0,2012/02/25 00:53:53,,routed-config-p1-success,,0,0,general,informational,Route daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,SYSTEM,vpn,0,2012/02/25 00:53:56,,ike-config-p1-success,,0,0,general,informational,IKE daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,SYSTEM,routing,0,2012/02/25 00:54:16,,routed-config-p2-success,,0,0,general,informational,Route daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,SYSTEM,ras,0,2012/02/25 00:54:16,,rasmgr-config-p2-success,,0,0,general,informational,RASMGR daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,CONFIG,0,0,2012/02/25 00:57:17,192.168.0.2,,edit,badguy,Web,Succeeded, vsys  vsys1 profiles url-filtering  monzyspolicy,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,CONFIG,0,0,2012/02/25 00:57:36,192.168.0.2,,commit,badguy,Web,Submitted,,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,SYSTEM,routing,0,2012/02/25 00:57:49,,routed-config-p1-success,,0,0,general,informational,Route daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:02 1,2013/03/25 23:59:02,1606001116,SYSTEM,vpn,0,2012/02/25 00:57:52,,ike-config-p1-success,,0,0,general,informational,IKE daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,1606001116,SYSTEM,routing,0,2012/02/25 00:58:12,,routed-config-p2-success,,0,0,general,informational,Route daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,1606001116,SYSTEM,vpn,0,2012/02/25 00:58:12,,ike-config-p2-success,,0,0,general,informational,IKE daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,1606001116,SYSTEM,ras,0,2012/02/25 00:58:12,,rasmgr-config-p2-success,,0,0,general,informational,RASMGR daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,1606001116,SYSTEM,general,1,2012/02/25 00:58:14,,unknown,,0,0,general,informational,Config installed,909,0x0
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,1606001116,SYSTEM,general,0,2012/02/25 00:59:36,,general,,0,0,general,informational,Log type config cleared by user badguy ,0,0x0
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,01606001116,THREAT,url,1,2012/04/10 05:01:00,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 05:01:00,49238,1,63007,80,0,0,0x200000,tcp,block-url,"softsellfast.com/test/config.bin",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,01606001116,THREAT,url,1,2012/04/10 05:00:55,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 05:00:57,50985,1,62993,80,0,0,0x208000,tcp,alert,"pornoland7.ru/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,01606001116,THREAT,file,1,2012/04/10 04:54:33,122.226.169.183,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,crusher,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:54:38,41989,1,80,61726,0,0,0x200000,tcp,deny,"52hxw.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,China,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,01606001116,THREAT,url,1,2012/04/10 04:53:48,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:53:48,41528,1,61593,80,0,0,0x208000,tcp,alert,"online2168.com/321/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:07 1,2013/03/25 23:59:07,01606001116,THREAT,file,1,2012/04/10 04:51:29,91.209.163.202,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,crusher,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:51:34,37983,1,80,61220,0,0,0x200000,tcp,deny,"FunkyEmoticons_setup.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,European Union,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,file,1,2012/04/10 04:46:16,91.209.163.202,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,crusher,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:46:22,33760,1,80,60392,0,0,0x200000,tcp,deny,"Live-Player_setup.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,European Union,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,file,1,2012/04/10 04:45:17,109.201.131.15,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,crusher,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:45:23,21592,1,80,60212,0,0,0x200000,tcp,deny,"setup.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,Netherlands,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:44:05,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:44:06,31426,1,60017,80,0,0,0x208000,tcp,alert,"kentik.net/bin/build/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:44:05,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:44:05,30679,1,60009,80,0,0,0x208000,tcp,alert,"index333.com/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:44:04,192.168.0.2,46.4.107.125,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:44:05,30290,1,60002,80,0,0,0x208000,tcp,alert,"google-search.ru/user/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,Germany,0,text/html
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:42:51,192.168.0.2,213.180.199.61,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:42:51,28953,1,59752,80,0,0,0x200000,tcp,block-url,"maximtushin.narod.ru/config.txt",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,Russian Federation,0,
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:42:42,192.168.0.2,213.180.199.61,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:42:42,28932,1,59721,80,0,0,0x200000,tcp,block-url,"edw-melon.narod.ru/config.txt",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,Russian Federation,0,
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:42:39,192.168.0.2,213.180.199.61,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:42:39,28723,1,59709,80,0,0,0x200000,tcp,block-url,"boialex.narod.ru/config.txt",(9999),malware-sites,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,Russian Federation,0,
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:36:32,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:33,21892,1,58652,80,0,0,0x208000,tcp,alert,"online2168.com/123/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:12 1,2013/03/25 23:59:12,01606001116,THREAT,url,1,2012/04/10 04:36:28,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:36:31,21575,1,58614,80,0,0,0x208000,tcp,alert,"freeuniversis.cn/z12/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:32:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:33:01,16520,1,57582,80,0,0,0x208000,tcp,alert,"www.fayda.cn/work21/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:25:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:25:59,7073,1,55848,80,0,0,0x208000,tcp,alert,"mabira.net/z/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:24:38,192.168.0.2,208.73.210.29,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:24:40,5100,1,55630,80,0,0,0x208000,tcp,alert,"www.pinigeliai.com/ai/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:23:41,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:23:42,2780,1,55386,80,0,0,0x208000,tcp,alert,"pro100biz.cn/cn/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:23:29,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:23:31,4154,1,55352,80,0,0,0x208000,tcp,alert,"amnepofig.ru/test/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,file,1,2012/04/10 04:19:59,173.236.179.57,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,crusher,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:20:05,64856,1,80,54431,0,0,0x200000,tcp,deny,"uLLGRaXP.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:18:29,192.168.0.2,62.149.16.3,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:18:31,42877,1,53433,80,0,0,0x208000,tcp,alert,"arttrans.com.ua/include/config.bin",(9999),entertainment-and-arts,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,Ukraine,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:18:27,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:18:28,51529,1,53402,80,0,0,0x208000,tcp,alert,"amnepofig.ru/bb/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:15:22,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:15:23,60445,1,51260,80,0,0,0x208000,tcp,alert,"heavenplace.cn/2nd/config.log",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:17 1,2013/03/25 23:59:17,01606001116,THREAT,url,1,2012/04/10 04:12:38,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:12:40,59501,1,49387,80,0,0,0x208000,tcp,alert,"lyboidomen.cn/z12/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,THREAT,url,1,2012/04/10 04:10:12,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:10:13,38637,1,63997,80,0,0,0x208000,tcp,alert,"vippif.net/cfg/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,THREAT,url,1,2012/04/10 04:09:03,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:09:04,55357,1,63197,80,0,0,0x208000,tcp,alert,"tdxs.info/utility/backup/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,THREAT,url,1,2012/04/10 04:09:01,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:09:01,55402,1,63183,80,0,0,0x200000,tcp,block-url,"marketingsoluchion.biz/fkn/config.bin",(9999),unknown,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,THREAT,url,1,2012/04/10 04:08:59,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:09:00,53127,1,63163,80,0,0,0x208000,tcp,alert,"ltnc.info/utility/lease/software/update/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,THREAT,url,1,2012/04/10 04:08:46,192.168.0.2,204.232.231.46,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/10 04:08:47,54799,1,62996,80,0,0,0x208000,tcp,alert,"freecastingus.cn/z12/config.bin",(9999),not-resolved,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/html
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,SYSTEM,general,1,2012/04/10 03:11:57,,unknown,,0,0,general,informational,Config installed,884,0x0
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,SYSTEM,ras,0,2012/04/10 03:11:56,,rasmgr-config-p2-success,,0,0,general,informational,RASMGR daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,SYSTEM,vpn,0,2012/04/10 03:11:56,,ike-config-p2-success,,0,0,general,informational,IKE daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,SYSTEM,routing,0,2012/04/10 03:11:56,,routed-config-p2-success,,0,0,general,informational,Route daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:22 1,2013/03/25 23:59:22,01606001116,SYSTEM,ras,0,2012/04/10 03:06:11,,rasmgr-config-p1-success,,0,0,general,informational,RASMGR daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,routing,0,2012/04/10 03:06:00,,routed-config-p1-success,,0,0,general,informational,Route daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,THREAT,url,1,2012/04/09 21:10:30,192.168.0.2,74.125.239.27,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 21:10:31,54912,1,59947,80,0,0,0x200000,tcp,alert,"s0.2mdn.net/instream/ads_sdk_config.xml",(9999),web-advertisements,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,THREAT,url,1,2012/04/09 21:09:41,192.168.0.2,74.125.239.27,0.0.0.0,0.0.0.0,rule1,crusher,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 21:09:41,54912,1,59947,80,0,0,0x200000,tcp,alert,"s0.2mdn.net/instream/ads_sdk_config.xml",(9999),web-advertisements,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,THREAT,url,1,2012/04/09 21:07:35,192.168.0.2,74.125.239.28,0.0.0.0,0.0.0.0,rule1,crusher,,flash,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 21:07:35,45241,1,59646,80,0,0,0x208000,tcp,alert,"s0.2mdn.net/instream/ads_sdk_config.xml",(9999),web-advertisements,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,text/xml
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,general,1,2012/04/09 09:02:53,,unknown,,0,0,general,informational,Config installed,840,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,ras,0,2012/04/09 09:02:52,,rasmgr-config-p2-success,,0,0,general,informational,RASMGR daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,vpn,0,2012/04/09 09:02:52,,ike-config-p2-success,,0,0,general,informational,IKE daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,routing,0,2012/04/09 09:02:52,,routed-config-p2-success,,0,0,general,informational,Route daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,ras,0,2012/04/09 09:00:55,,rasmgr-config-p1-success,,0,0,general,informational,RASMGR daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:27 1,2013/03/25 23:59:27,01606001116,SYSTEM,vpn,0,2012/04/09 09:00:52,,ike-config-p1-success,,0,0,general,informational,IKE daemon configuration load phase-1 succeeded.,0,0x0
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,CONFIG,0,0,2012/04/09 09:00:35,192.168.0.2,,commit,admin,Web,Submitted,,0,0x0
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,CONFIG,0,0,2012/04/09 09:00:20,192.168.0.2,,edit,admin,Web,Succeeded, vsys  vsys1 profiles data-objects  PII,0,0x0
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:58:18,74.125.224.198,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:58:22,29312,1,80,57876,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:50:12,192.168.0.2,208.85.40.48,0.0.0.0,0.0.0.0,rule1,picard,,pandora,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:50:17,28264,1,57502,80,0,0,0x200000,tcp,alert,"internal-tuner.pandora.com",PII(60000),any,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,file,1,2012/04/09 08:22:27,188.190.124.75,192.168.0.6,0.0.0.0,0.0.0.0,rule1,,jordy,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:22:31,26747,1,80,1082,0,0,0x200000,tcp,deny,"about.exe",Windows Executable (EXE)(52020),any,low,server-to-client,0,0x0,Ukraine,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:18:37,74.125.239.17,192.168.0.6,0.0.0.0,0.0.0.0,rule1,,jordy,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:18:42,25932,1,80,1071,0,0,0x200000,tcp,alert,"csi",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:18:33,192.168.0.6,65.54.71.11,0.0.0.0,0.0.0.0,rule1,jordy,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:18:38,25290,1,1048,80,0,0,0x200000,tcp,alert,"c.gif",PII(60000),any,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:18:32,65.55.5.231,192.168.0.6,0.0.0.0,0.0.0.0,rule1,,jordy,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:18:37,25717,3,80,1064,0,0,0x200000,tcp,alert,"ADSAdClient31.dll",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:18:29,65.54.161.34,192.168.0.6,0.0.0.0,0.0.0.0,rule1,,jordy,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:18:34,25653,1,80,1039,0,0,0x200000,tcp,alert,"sck.aspx",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:32 1,2013/03/25 23:59:32,01606001116,THREAT,data,1,2012/04/09 08:18:27,192.168.0.6,207.46.140.46,0.0.0.0,0.0.0.0,rule1,jordy,,web-browsing,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:18:32,25217,1,1047,80,0,0,0x200000,tcp,alert,"default.aspx",PII(60000),any,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 08:16:57,65.54.75.25,192.168.0.6,0.0.0.0,0.0.0.0,rule1,,jordy,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:17:01,25874,1,80,1046,0,0,0x200000,tcp,reset-both,"8fe44cb728c0f40750c64ee906eb72.css",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 08:08:44,208.80.154.234,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:08:49,24646,1,80,55916,0,0,0x200000,tcp,alert,"load.php",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 08:08:08,208.80.154.225,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 08:08:13,24567,1,80,55912,0,0,0x200000,tcp,alert,"Eadweard_Muybridge",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:36:04,74.125.239.20,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:36:09,21267,1,80,53809,0,0,0x200000,tcp,alert,"nav_logo107.png",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:25:04,74.125.224.193,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:25:09,20422,1,80,53026,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:18:14,192.168.0.2,74.125.239.6,0.0.0.0,0.0.0.0,rule1,picard,,google-analytics,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:18:19,19448,1,52366,80,0,0,0x200000,tcp,alert,"__utm.gif",PII(60000),any,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:16:03,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:16:08,19679,1,80,52411,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:14:39,74.125.239.3,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:14:44,19696,1,80,52119,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:14:02,74.125.239.3,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:14:07,19360,1,80,51716,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:37 1,2013/03/25 23:59:37,01606001116,THREAT,data,1,2012/04/09 07:11:43,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 07:11:48,19205,1,80,50986,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:54:55,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:55:00,17104,1,80,50387,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:54:35,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:54:41,17433,1,80,50108,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:53:41,192.168.0.2,74.125.224.201,0.0.0.0,0.0.0.0,rule1,picard,,google-analytics,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:53:47,16602,1,49681,80,0,0,0x200000,tcp,alert,"__utm.gif",PII(60000),any,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:51:34,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:51:39,15878,1,80,49722,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:50:14,66.152.109.24,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:50:19,17028,1,80,49432,0,0,0x200000,tcp,alert,"index.php",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:48:59,74.125.239.20,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,web-browsing,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:49:05,15948,1,80,64979,0,0,0x200000,tcp,alert,"csi",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:48:44,74.125.224.195,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,picard,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:48:48,16852,1,80,65265,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 06:07:49,207.178.96.34,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,rss,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 06:07:54,1560,1,80,64669,0,0,0x200000,tcp,alert,"appcast.xml",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 04:12:52,74.125.224.195,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 04:12:57,3046,1,80,62292,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:42 1,2013/03/25 23:59:42,01606001116,THREAT,data,1,2012/04/09 04:06:41,74.125.224.206,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 04:06:46,2175,1,80,61734,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 04:03:55,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 04:04:00,1965,1,80,61470,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 03:55:52,74.125.224.198,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-analytics,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 03:55:57,883,1,80,60782,0,0,0x200000,tcp,alert,"ga.js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 03:55:23,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 03:55:28,1475,1,80,61105,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 03:53:41,74.125.224.200,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 03:53:45,914,1,80,60822,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 03:49:17,74.125.224.201,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 03:49:22,537,1,80,60443,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 03:45:45,74.125.224.201,192.168.0.2,0.0.0.0,0.0.0.0,rule1,,jordy,google-maps,vsys1,untrust,trust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 03:45:50,65257,1,80,60005,0,0,0x200000,tcp,reset-both,"js",PII(60000),any,informational,server-to-client,0,0x0,United States,192.168.0.0-192.168.255.255,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,THREAT,data,1,2012/04/09 03:44:49,192.168.0.2,208.85.40.48,0.0.0.0,0.0.0.0,rule1,jordy,,pandora,vsys1,trust,untrust,ethernet1/2,ethernet1/1,forwardAll,2012/04/09 03:44:55,63706,1,59781,80,0,0,0x200000,tcp,alert,"internal-tuner.pandora.com",PII(60000),any,informational,client-to-server,0,0x0,192.168.0.0-192.168.255.255,United States,0,
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,SYSTEM,general,1,2012/04/09 03:21:53,,unknown,,0,0,general,informational,Config installed,821,0x0
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,SYSTEM,ras,0,2012/04/09 03:21:53,,rasmgr-config-p2-success,,0,0,general,informational,RASMGR daemon configuration load phase-2 succeeded.,0,0x0
+
+Mar 25 23:59:47 1,2013/03/25 23:59:47,01606001116,SYSTEM,vpn,0,2012/04/09 03:21:53,,ike-config-p2-success,,0,0,general,informational,IKE daemon configuration load phase-2 succeeded.,0,0x0
+

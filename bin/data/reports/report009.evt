@@ -1,0 +1,78 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254797598</id>
+  <task>366988278</task>
+  <sha256>491265dfb70859e64ba3fe9a65b276fefff5cc4b774acf194e8bf7e64823edd8</sha256>
+  <md5>3b4eff5d084ce498d76b0cf517aeb201</md5>
+  <size>258160</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created or modified files</entry>
+    <entry>Sample used a Known bad User-Agent</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Downloaded executable files</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Changed the proxy settings for Internet Explorer</entry>
+    <entry>Modified the network connections setting for Internet Explorer</entry>
+    <entry>Created an executable file in a user document folder</entry>
+    <entry>Attempted to sleep for a long period</entry>
+  </summary>
+  <process>
+    <process_terminated child_pid="1588" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="672" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_created child_pid="2932" child_process_image="C:\sample.exe" parent_pid="2740" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="2932" child_process_image="C:\sample.exe" parent_pid="2740" parent_process_image="explorer.exe"/>
+  </process>
+  <file>
+    <file_written pid="2740" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\CryptnetUrlCache\MetaData\2BF68F4714092295550497DD56F57004"/>
+    <file_written pid="2740" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\CryptnetUrlCache\Content\2BF68F4714092295550497DD56F57004"/>
+    <file_written pid="2932" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\setupcfg.ini"/>
+    <file_written pid="2740" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015"/>
+    <file_written pid="2740" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\CryptnetUrlCache\Content\94308059B57B3142E455B38A6EB92015"/>
+    <file_written pid="2932" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\PublicTransitSetup[1].exe"/>
+    <file_written pid="2932" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\PublicTransitSetup.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\PublicTransitSetup.exe" pid="2932" process_image="C:\sample.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2740" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2932" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="672" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="US" ip="64.135.77.50" port="80"/>
+    <TCP country="US" ip="184.50.26.16" port="80"/>
+    <dns query="www2.crawler.com" type="A"/>
+    <dns query="www.download.windowsupdate.com" type="A"/>
+    <dns query="com" type="NS"/>
+    <dns query="d.akamai.net" type="NS"/>
+    <url host="www.download.windowsupdate.com" method="GET" uri="/msdownload/update/v3/static/trustedr/en/authrootseq.txt" user_agent="Microsoft-CryptoAPI/5.131.2600.2180"/>
+    <url host="www.download.windowsupdate.com" method="GET" uri="/msdownload/update/v3/static/trustedr/en/authrootseq.txt" user_agent="Microsoft-CryptoAPI/5.131.2600.2180"/>
+    <url host="www2.crawler.com" method="GET" uri="/dnl/toolbar/10038/PublicTransitSetup.exe" user_agent="mFramework HTTPGet"/>
+  </network>
+</report>
+</wildfire>

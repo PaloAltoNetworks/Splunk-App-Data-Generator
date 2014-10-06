@@ -1,0 +1,116 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254799658</id>
+  <task>366850398</task>
+  <sha256>4c232033e09ff0f7fb3057146cccd675922dccbeeaea18cd5652de3249231990</sha256>
+  <md5>6b824521508f6c600dd3348f151e8c45</md5>
+  <size>438512</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created or modified files</entry>
+    <entry>Started a process from a user document folder</entry>
+    <entry>Spawned new processes</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Changed the proxy settings for Internet Explorer</entry>
+    <entry>Modified the network connections setting for Internet Explorer</entry>
+    <entry>Created an executable file in a user document folder</entry>
+    <entry>Attempted to sleep for a long period</entry>
+    <entry>Sample used a New User-Agent</entry>
+    <entry>Deleted Cookies</entry>
+  </summary>
+  <process>
+    <process_terminated child_pid="1604" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="664" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_created child_pid="2972" child_process_image="C:\sample.exe" parent_pid="2784" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2980" child_process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" parent_pid="2972" parent_process_image="C:\sample.exe"/>
+  </process>
+  <file>
+    <file_written pid="2784" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\CryptnetUrlCache\MetaData\2BF68F4714092295550497DD56F57004"/>
+    <file_written pid="2784" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Application Data\Microsoft\CryptnetUrlCache\Content\2BF68F4714092295550497DD56F57004"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nsz1.tmp" pid="2972" process_image="C:\sample.exe"/>
+    <file_written pid="2972" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nso2.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp" pid="2972" process_image="C:\sample.exe"/>
+    <file_written pid="2972" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\1856-1003-2597-1785[1].htm"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\downloadcomvn-app.min[1].css"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\app.min[1].css"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\ender.min[1].js"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\S1MZ0XYN\Tonec[1].png"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\81U3S9EZ\downloadcomvn-sprite[1].png"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\81U3S9EZ\app.min[1].js"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Cookies\administrator@api.downloadmr[1].txt"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Cookies\index.dat"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Cookies\administrator@api.downloadmr[2].txt"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Cookies\administrator@api.downloadmr[1].txt" pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Cookies\administrator@api.downloadmr[2].txt" pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\sprite[1].png"/>
+    <file_written pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\sprite[1].jpg"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\81U3S9EZ\downloadcomvn-sprite[1].png" pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2784" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2972" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Local AppData"/>
+    <SetValueKey pid="2980" process_image="C:\Documents and Settings\Administrator\Local Settings\Temp\nse3.tmp\dawn.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="664" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="US" ip="74.125.140.138" port="80"/>
+    <TCP country="US" ip="184.50.26.17" port="80"/>
+    <TCP country="VN" ip="123.30.129.226" port="80"/>
+    <TCP country="ES" ip="91.192.111.38" port="80"/>
+    <TCP country="US" ip="184.50.26.16" port="80"/>
+    <dns query="" type="NS"/>
+    <dns query="www.google-analytics.com" type="A"/>
+    <dns query="img1.dowload.vn" type="A"/>
+    <dns query="solimba.com" type="NS"/>
+    <dns query="downloadmr.com" type="NS"/>
+    <dns query="api.downloadmr.com" type="A"/>
+    <dns query="google.com" type="NS"/>
+    <dns query="www.download.windowsupdate.com" type="A"/>
+    <dns query="d.akamai.net" type="NS"/>
+    <dns query="cdn.solimba.com" type="A"/>
+    <url host="api.downloadmr.com" method="GET" uri="/s/downloadcomvn-app.min.css?2013060801" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="api.downloadmr.com" method="GET" uri="/s/ender.min.js" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="cdn.solimba.com" method="GET" uri="/apps/toparcade/sprite.jpg" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="api.downloadmr.com" method="GET" uri="/s/downloadcomvn-sprite.png" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="api.downloadmr.com" method="GET" uri="/s/app.min.css?2013060801" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="api.downloadmr.com" method="GET" uri="/s/app.min.js?2013060801" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="www.google-analytics.com" method="GET" uri="/__utm.gif?utmwv=5.4.3&amp;utms=2&amp;utmn=1542328204&amp;utmhn=api.downloadmr.com&amp;utmt=event&amp;utme=5(installer*welcome*50ae11c5-fa08-4f10-be2a-04b05bc06f2f)&amp;utmcs=utf-8&amp;utmsr=800x600&amp;utmvp=9x10&amp;utmsc=24-bit&amp;utmul=en-us&amp;utmje=1&amp;utmfl=6.0%20r79&amp;utmdt=Internet%20download%20manager&amp;utmhid=1064055173&amp;utmr=-&amp;utmp=%2Finstaller%2F50ae11c5-fa08-4f10-be2a-04b05bc06f2f%2F9943666%2Fen%2Fui%2F1856-1003-2597-1785&amp;utmht=1374150910218&amp;utmac=UA-23612276-2&amp;utmcc=__utma%3D196456060.278637741.1374150908.1374150908.1374150908.1%3B%2B__utmz%3D196456060.1374150908.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&amp;utmu=6AAAAAAAAAAAAAAAQ~" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="api.downloadmr.com" method="GET" uri="/installer/50ae11c5-fa08-4f10-be2a-04b05bc06f2f/9943666/config" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="www.download.windowsupdate.com" method="GET" uri="/msdownload/update/v3/static/trustedr/en/authrootseq.txt" user_agent="Microsoft-CryptoAPI/5.131.2600.2180"/>
+    <url host="api.downloadmr.com" method="GET" uri="/installer/50ae11c5-fa08-4f10-be2a-04b05bc06f2f/9943666/en/ui/1856-1003-2597-1785" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="img1.dowload.vn" method="GET" uri="/Data/image/logos_banners/T/Tonec.png" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="cdn.solimba.com" method="GET" uri="/apps/optimizer/sprite.png" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="www.google-analytics.com" method="GET" uri="/ga.js" user_agent="DownloadMR/1.0.5 (MSIE 7.0; Windows NT 5.1 SP2; T131982010S; aurora)"/>
+    <url host="www.download.windowsupdate.com" method="GET" uri="/msdownload/update/v3/static/trustedr/en/authrootseq.txt" user_agent="Microsoft-CryptoAPI/5.131.2600.2180"/>
+  </network>
+</report>
+</wildfire>

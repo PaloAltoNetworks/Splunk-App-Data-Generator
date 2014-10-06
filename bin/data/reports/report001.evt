@@ -1,0 +1,82 @@
+<wildfire> 
+<report>
+  <version>0.1</version>
+  <id>254802158</id>
+  <task>366993648</task>
+  <sha256>19d43feb3439f2dda4dc4dacb5cffad44e639564a4007fc93e25905a849f76be</sha256>
+  <md5>c52b77064604fc7e695261339ba6510c</md5>
+  <size>942080</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created or modified files</entry>
+    <entry>Spawned new processes</entry>
+    <entry>Contained unknown TCP/UDP traffic</entry>
+    <entry>Listened on a specific port (backdoor behavior)</entry>
+    <entry>Created a hidden executable file</entry>
+    <entry>Registered a file as auto-start from a local directory</entry>
+    <entry>Modified registries or system configuration to enable auto start capability</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Crashed when loaded</entry>
+    <entry>Attempted to sleep for a long period</entry>
+    <entry>Used direct IP instead of host name</entry>
+    <entry>Communicated with new DNS server</entry>
+    <entry>Sent out emails</entry>
+    <entry>Produced unknown traffic over the HTTP port</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2420" child_process_image="C:\sample.exe" parent_pid="2380" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1604" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="672" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_created child_pid="2992" child_process_image="C:\WINDOWS\system32\dwwin.exe" parent_pid="2420" parent_process_image="C:\sample.exe"/>
+  </process>
+  <file>
+    <file_deleted deleted_file="C:\tmp.exe" pid="2420" process_image="C:\sample.exe"/>
+    <file_written pid="2420" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\e25f_appcompat.txt"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2380" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Internet Explorer\Main\PersistentLocalizedName"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ActiveModifiedTheme"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Notepad\defaultCompressedRecord"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Internet Explorer\Main\LineLoadedQuick"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\SizeCompletedValid"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Notepad\recordModifiedMax"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Internet Explorer\Main\PlatformCompressedValid"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\InfoPlayedCurrent"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Notepad\flagsModifiedValid"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Internet Explorer\Main\DBSavedUse"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\NetworkInformer"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Local AppData"/>
+    <DeleteKey pid="2420" process_image="C:\sample.exe" reg_key="HKLM\SOFTWARE\Microsoft\PCHealth\ErrorReporting\DW"/>
+    <DeleteValueKey pid="2420" process_image="C:\sample.exe" reg_key="HKLM\SOFTWARE\Microsoft\PCHealth\ErrorReporting\DW\DWFileTreeRoot"/>
+  </registry>
+  <network>
+    <TCP country="US" ip="204.232.231.46" port="80"/>
+    <UDP country="EU" ip="89.45.14.31" port="80"/>
+    <UDP country="NL" ip="95.211.30.122" port="80"/>
+    <TCP country="UA" ip="93.77.115.235" port="80"/>
+    <UDP country="US" ip="54.247.125.32" port="80"/>
+    <UDP country="CN" ip="1.2.2.4" port="53"/>
+    <TCP country="SE" ip="83.233.210.35" port="80"/>
+    <TCP country="UA" ip="93.79.74.3" port="80"/>
+    <UDP country="EU" ip="141.101.121.191" port="80"/>
+    <TCP country="US" ip="173.194.64.26" port="25"/>
+    <UDP country="N/A" ip="103.31.186.21" port="80"/>
+    <UDP country="NL" ip="95.211.192.204" port="80"/>
+    <dns query="90.174.93.in-addr.arpa" type="NS"/>
+    <url host="93.77.115.235" method="GET" uri="/home.htm" user_agent="Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14"/>
+  </network>
+</report>
+</wildfire>

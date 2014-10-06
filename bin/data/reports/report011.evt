@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wildfire> 
+<version>2.0</version>
+<id>254796538</id>
+<file_info>
+  <sha256>5cffd8d8aad442208575779db500c8d0c42ec0a30b7de0f4c5459fa90a03ed00</sha256>
+  <md5>9d8304179be4e6a0bb6180b4c992539b</md5>
+  <filetype>PE</filetype>
+  <size>693660</size>
+  <malware>yes</malware>
+</file_info>
+<task_info>
+<report>
+  <version>2.0</version>
+  <platform>2</platform>
+  <software>Windows XP, Adobe Reader 9.4.0, Flash 10, Office 2007</software>
+  <sha256>5cffd8d8aad442208575779db500c8d0c42ec0a30b7de0f4c5459fa90a03ed00</sha256>
+  <md5>9d8304179be4e6a0bb6180b4c992539b</md5>
+  <size>693660</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Sample attempted to copy itself</entry>
+    <entry>Created an executable file in a user document folder</entry>
+    <entry>Injected code into another process</entry>
+    <entry>Started a process from a user document folder</entry>
+    <entry>Sample used a Known bad User-Agent</entry>
+    <entry>Spawned new processes</entry>
+    <entry>Performed a DNS query for a mail server</entry>
+    <entry>Created a hidden executable file</entry>
+    <entry>Registered a file as auto-start from a local directory</entry>
+    <entry>Modified registries or system configuration to enable auto start capability</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Created or modified files</entry>
+    <entry>Attempted to sleep for a long period</entry>
+    <entry>Communicated using IRC over a non-standard port</entry>
+    <entry>Sent out emails</entry>
+    <entry>Changed the Windows firewall policy</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2772" child_process_image="C:\sample.exe" parent_pid="4294967295" parent_process_image="UNKNOWN"/>
+    <process_created child_pid="2772" child_process_image="C:\sample.exe" parent_pid="2736" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2784" child_process_image="UNKNOWN" parent_pid="2772" parent_process_image="C:\sample.exe"/>
+    <process_created child_pid="2824" child_process_image="C:\Documents and Settings\Administrator\M-670240924709424894672\winmgr.exe" parent_pid="2812" parent_process_image="UNKNOWN"/>
+    <process_terminated child_pid="2772" child_process_image="C:\sample.exe" parent_pid="2736" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2812" child_process_image="UNKNOWN" parent_pid="2784" parent_process_image="UNKNOWN"/>
+    <process_terminated child_pid="2784" child_process_image="UNKNOWN" parent_pid="2772" parent_process_image="C:\sample.exe"/>
+  </process>
+  <file>
+    <file_written pid="2772" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\aut1.tmp"/>
+    <file_written pid="2772" process_image="C:\sample.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\m785636.rcf"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temp\aut1.tmp" pid="2772" process_image="C:\sample.exe"/>
+    <file_written pid="2784" process_image="UNKNOWN" written_file="C:\Documents and Settings\Administrator\M-670240924709424894672\winmgr.exe"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2736" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2772" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKLM\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List\C:\Documents and Settings\Administrator\M-670240924709424894672\winmgr.exe"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Microsoft Windows Service"/>
+    <DeleteValueKey pid="1696" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Run\internat.exe"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2784" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2812" process_image="UNKNOWN" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="508" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="LU" ip="94.242.198.64" port="5050"/>
+    <TCP country="US" ip="74.208.5.27" port="25"/>
+    <TCP country="US" ip="69.197.137.58" port="80"/>
+    <dns query="api.wipmania.com" type="A"/>
+    <dns query="gmx.com" type="MX"/>
+    <dns query="wipmania.com" type="NS"/>
+    <dns query="gmx.com" type="NS"/>
+    <dns query="mx01.gmx.com" type="A"/>
+    <dns query="srv1.su" type="A"/>
+    <dns query="srv1.su" type="NS"/>
+    <url host="api.wipmania.com" method="GET" uri="/" user_agent="hi"/>
+  </network>
+</report>
+</task_info>
+</wildfire>

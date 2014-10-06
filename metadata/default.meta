@@ -1,0 +1,15 @@
+; This file contains configuration data and metadata.
+;
+; Each stanza refers to a configuration object within Splunk. Stanza headers
+; have the following format:
+;
+;     /<user>/<application>/<path>[/<more-path>...]
+;
+; A stanza may contain the following settings:
+;
+;     access = permissions on this path
+;     data = text data stored at this path (ignored if only whitespace)
+;     export = export target for this path
+
+[]
+export = system

@@ -1,0 +1,359 @@
+<wildfire> 
+<report>
+  <version>
+    0.1
+  </version>
+  <id>254800318</id>
+  <task>
+    316734208
+  </task>
+  <sha256>
+    0c34467655d1a7dfdf470c3bfd524776c1bb7c6a0d046b876b927d5a87efc803
+  </sha256>
+  <md5>
+    e70a06022a7a7b0bde9d6f9c89c04d76
+  </md5>
+  <malware>
+    yes
+  </malware>
+  <summary>
+    <entry>
+      Created or modified files
+    </entry>
+    <entry>
+      Sample used a Known bad User-Agent
+    </entry>
+    <entry>
+      Spawned new processes
+    </entry>
+    <entry>
+      Injected code into another process
+    </entry>
+    <entry>
+      Modified Windows registries
+    </entry>
+    <entry>
+      Changed security settings of Internet Explorer
+    </entry>
+    <entry>
+      Changed the proxy settings for Internet Explorer
+    </entry>
+    <entry>
+      Modified the network connections setting for Internet Explorer
+    </entry>
+    <entry>
+      Attempted to sleep for a long period
+    </entry>
+  </summary>
+  <process>
+    <process_created child_pid="2452" child_process_image="C:\sample.exe" parent_pid="2416" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2472" child_process_image="C:\sample.exe" parent_pid="2452" parent_process_image="C:\sample.exe"/>
+    <process_terminated child_pid="2452" child_process_image="C:\sample.exe" parent_pid="2416" parent_process_image="explorer.exe"/>
+    <process_terminated child_pid="1604" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="664" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_terminated child_pid="1348" child_process_image="C:\WINDOWS\system32\update.exe" parent_pid="1716" parent_process_image="C:\WINDOWS\system32\cmd.exe"/>
+  </process>
+  <file>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1.tmp"/>
+    <file_written pid="2416" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm"/>
+    <file_written pid="2416" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm" pid="2416" process_image="explorer.exe"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm" pid="1716" process_image="C:\WINDOWS\system32\cmd.exe"/>
+    <file_written pid="2416" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4.tmp"/>
+    <file_written pid="2416" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7.tmp"/>
+    <file_written pid="2416" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9.tmp"/>
+    <file_written pid="2416" process_image="explorer.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpA.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpB.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm" pid="1348" process_image="C:\WINDOWS\system32\update.exe"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpC.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm" pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpD.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpE.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpF.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp10.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp11.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp12.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp13.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp14.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp15.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp16.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp17.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp18.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp19.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm" pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1A.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm" pid="1564" process_image="C:\WINDOWS\system32\cmd.exe"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1B.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm" pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1C.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1D.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1E.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp1F.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp20.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp21.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp22.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp23.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp24.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp25.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp26.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp27.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp28.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm" pid="1348" process_image="C:\WINDOWS\system32\update.exe"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp29.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2A.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2B.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2C.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2D.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2E.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp2F.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp30.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp31.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp32.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp33.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp34.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp35.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm" pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp36.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp37.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\4PI385IJ\404[1].htm" pid="1716" process_image="C:\WINDOWS\system32\cmd.exe"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp38.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp39.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3A.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3B.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3C.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3D.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3E.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp3F.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp40.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp41.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp42.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp43.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp44.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp45.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp46.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp47.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp48.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp49.tmp"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\CHAFCXEB\404[1].htm" pid="1564" process_image="C:\WINDOWS\system32\cmd.exe"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4A.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4B.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4C.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4D.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4E.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp4F.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp50.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp51.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp52.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp53.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp54.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp55.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp56.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp57.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp58.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp59.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5A.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5B.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5C.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5D.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5E.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp5F.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp60.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp61.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp62.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp63.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp64.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp65.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp66.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp67.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp68.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp69.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6A.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6B.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6C.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6D.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6E.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp6F.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp70.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp71.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp72.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp73.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp74.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp75.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp76.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp77.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp78.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp79.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7A.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7B.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7C.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7D.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7E.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp7F.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp80.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp81.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp82.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp83.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp84.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp85.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp86.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp87.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp88.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp89.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8A.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8B.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8C.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8D.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8E.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp8F.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp90.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp91.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp92.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp93.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp94.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp95.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp96.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp97.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp98.tmp"/>
+    <file_written pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp99.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9A.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9B.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9C.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9D.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9E.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmp9F.tmp"/>
+    <file_written pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpA0.tmp"/>
+    <file_written pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpA1.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpA2.tmp"/>
+    <file_written pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpA3.tmp"/>
+    <file_written pid="1348" process_image="C:\WINDOWS\system32\update.exe" written_file="C:\Documents and Settings\Administrator\Local Settings\Temp\tmpA4.tmp"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="1564" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="2416" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="1716" process_image="C:\WINDOWS\system32\cmd.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="1704" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="1348" process_image="C:\WINDOWS\system32\update.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\History"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common AppData"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\MigrateProxy"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <DeleteValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyServer"/>
+    <DeleteValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ProxyOverride"/>
+    <DeleteValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\AutoConfigURL"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\Software\Microsoft\windows\CurrentVersion\Internet Settings\ProxyEnable"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections\SavedLegacySettings"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="1176" process_image="C:\WINDOWS\system32\wscntfy.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="664" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="US" ip="216.180.234.108" port="80"/>
+    <dns query="blogbrs.com" type="NS"/>
+    <dns query="www.blogbrs.com" type="A"/>
+    <url host="www.blogbrs.com" method="GET" uri="/file.php?file=242008&amp;gen=0" user_agent="ksp/WS"/>
+    <url host="www.blogbrs.com" method="GET" uri="/file.php?file=242008&amp;gen=0" user_agent="ksp/WS"/>
+    <url host="www.blogbrs.com" method="GET" uri="/file.php?file=242008&amp;gen=0" user_agent="ksp/WS"/>
+    <url host="www.blogbrs.com" method="GET" uri="/file.php?file=242008&amp;gen=0" user_agent="ksp/WS"/>
+    <url host="www.blogbrs.com" method="GET" uri="/file.php?file=242008&amp;gen=0" user_agent="ksp/WS"/>
+    <url host="www.blogbrs.com" method="GET" uri="/file.php?file=242008&amp;gen=0" user_agent="ksp/WS"/>
+  </network>
+</report>
+</wildfire>

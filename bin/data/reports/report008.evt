@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wildfire> 
+<version>2.0</version>
+<id>254797738</id>
+<file_info>
+  <sha256>f00579f0908376f1562556005e398ca536a22bec46974603413bfe33e2a5877f</sha256>
+  <md5>b20bfeface7d7a549410297253a797a2</md5>
+  <filetype>PE</filetype>
+  <size>132760</size>
+  <malware>yes</malware>
+</file_info>
+<task_info>
+<report>
+  <version>2.0</version>
+  <platform>2</platform>
+  <software>Windows XP, Adobe Reader 9.4.0, Flash 10, Office 2007</software>
+  <sha256>f00579f0908376f1562556005e398ca536a22bec46974603413bfe33e2a5877f</sha256>
+  <md5>b20bfeface7d7a549410297253a797a2</md5>
+  <size>132760</size>
+  <malware>yes</malware>
+  <summary>
+    <entry>Created a file in the Windows folder</entry>
+    <entry>Used the POST method in HTTP</entry>
+    <entry>Injected code into another process</entry>
+    <entry>Started a process from a user document folder</entry>
+    <entry>Spawned new processes</entry>
+    <entry>Moved itself</entry>
+    <entry>Modified the network hosts file</entry>
+    <entry>Registered a file as auto-start from a local directory</entry>
+    <entry>Modified registries or system configuration to enable auto start capability</entry>
+    <entry>Modified Windows registries</entry>
+    <entry>Changed security settings of Internet Explorer</entry>
+    <entry>Created or modified files</entry>
+    <entry>Used direct IP instead of host name</entry>
+    <entry>Changed the Windows firewall policy</entry>
+  </summary>
+  <process>
+    <process_created child_pid="2432" child_process_image="C:\sample.exe" parent_pid="2396" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2480" child_process_image="C:\sample.exe" parent_pid="2432" parent_process_image="C:\sample.exe"/>
+    <process_terminated child_pid="2432" child_process_image="C:\sample.exe" parent_pid="2396" parent_process_image="explorer.exe"/>
+    <process_created child_pid="2540" child_process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" parent_pid="2480" parent_process_image="C:\sample.exe"/>
+    <process_terminated child_pid="1604" child_process_image="C:\WINDOWS\system32\userinit.exe" parent_pid="664" parent_process_image="C:\WINDOWS\system32\winlogon.exe"/>
+    <process_terminated child_pid="2480" child_process_image="C:\sample.exe" parent_pid="2432" parent_process_image="C:\sample.exe"/>
+    <process_created child_pid="2552" child_process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" parent_pid="2540" parent_process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe"/>
+    <process_terminated child_pid="2540" child_process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" parent_pid="2480" parent_process_image="C:\sample.exe"/>
+  </process>
+  <file>
+    <file_deleted deleted_file="C:\WINDOWS\system32\drivers\etc\hosts" pid="2480" process_image="C:\sample.exe"/>
+    <file_written pid="2480" process_image="C:\sample.exe" written_file="C:\WINDOWS\system32\drivers\etc\hosts"/>
+    <file_deleted deleted_file="C:\Documents and Settings\Administrator\Application Data\desktop.ini" pid="2552" process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe"/>
+    <file_written pid="2552" process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" written_file="C:\Documents and Settings\Administrator\Application Data\desktop.ini"/>
+    <file_written pid="2552" process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" written_file="C:\Documents and Settings\Administrator\Application Data\ntuser.dat"/>
+  </file>
+  <registry>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Personal"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e86064ca-57e4-11e0-bef8-806d6172696f}\BaseClass"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Documents"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Desktop"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Common Desktop"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache"/>
+    <SetValueKey pid="2396" process_image="explorer.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cookies"/>
+    <SetValueKey pid="2480" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2480" process_image="C:\sample.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Windows Init"/>
+    <DeleteValueKey pid="1712" process_image="C:\WINDOWS\system32\ctfmon.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Run\internat.exe"/>
+    <SetValueKey pid="2552" process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" reg_key="HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\AppData"/>
+    <SetValueKey pid="2552" process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" reg_key="HKLM\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List\c:\documents and settings\administrator\application data\xvaisavndkxousjftmxauirc3ipbpr3m2\svcnost.exe"/>
+    <SetValueKey pid="2552" process_image="C:\Documents and Settings\Administrator\Application Data\xvaisavndkxousjftmxauirc3ipbpr3m\svcnost.exe" reg_key="HKCU\Software\Microsoft\Internet Explorer\LowRegistry\SavedLegacySettingsML"/>
+    <SetValueKey pid="664" process_image="C:\WINDOWS\system32\winlogon.exe" reg_key="HKCU\Control Panel\Keyboard\InitialKeyboardIndicators"/>
+  </registry>
+  <network>
+    <TCP country="DE" ip="89.149.242.193" port="80"/>
+    <TCP country="RU" ip="37.9.55.55" port="80"/>
+    <TCP country="DE" ip="217.20.112.85" port="80"/>
+    <dns query="jejrw.su" type="NS"/>
+    <dns query="jejrw.su" type="A"/>
+    <url host="89.149.242.193" method="POST" uri="/stat1.php" user_agent="Mozilla/4.0 (compatible. MSIE 8.0. Windows NT 5.1)"/>
+    <url host="87.75.44.12" method="POST" uri="/stat1.php" user_agent="Mozilla/4.0 (compatible. MSIE 8.0. Windows NT 5.1)"/>
+    <url host="217.20.112.85" method="POST" uri="/stat1.php" user_agent="Mozilla/4.0 (compatible. MSIE 8.0. Windows NT 5.1)"/>
+  </network>
+</report>
+</task_info>
+</wildfire>
