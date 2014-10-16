@@ -31,7 +31,6 @@ paninc_libPath = os.path.join(SPLUNK_HOME, 'etc', 'apps', 'pan_datagen')
 ## sample log location
 log_in = open(os.path.join(paninc_libPath, 'bin', 'data',
                            'pan_incident_data_config.txt'), 'r').readlines()
-print log_in
 # more or less wholesale from: http://docs.python.org/2/library/urllib2.html
 # Create an OpenerDirector with support for Basic HTTP Authentication...
 auth_handler = urllib2.HTTPBasicAuthHandler()
