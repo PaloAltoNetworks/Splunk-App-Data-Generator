@@ -10,6 +10,11 @@
 .project
 .pydevproject
 
+# Local stuff
+local.meta
+local/*
+!local/inputs.conf.sample
+
 # Git repositories folder
 git-repositories/
 
