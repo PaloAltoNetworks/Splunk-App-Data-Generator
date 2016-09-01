@@ -3,8 +3,8 @@
 ##############
 splunkserver = 'localhost'
 splunkport = '8089'
-index = 'pan_logs'
-sourcetype = 'pan_wildfire_report'
+index = 'main'
+sourcetype = 'pan:wildfire_report'
 panuser = 'pan'
 panpass = 'pan'
 ## events per second

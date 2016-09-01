@@ -3,8 +3,8 @@
 ##############
 splunkserver = 'localhost'
 splunkport = '8089'
-index = 'pan_logs'
-sourcetype = 'pan_log'
+index = 'main'
+sourcetype = 'pan:log'
 panuser = 'pan'
 panpass = 'pan'
 ## events per second
